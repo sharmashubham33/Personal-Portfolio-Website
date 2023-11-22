@@ -798,6 +798,11 @@ section:nth-child(odd) .animate.scroll {
 
 
 /* BREAKPOINTS */
+@media (max-width: 600px) {
+    .home {
+        background: none; /* Remove the background for mobile phones image */
+      }
+  }
 @media (max-width: 1200px) {
     html {
     font-size: 55%;
