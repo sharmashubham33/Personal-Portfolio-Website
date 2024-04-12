@@ -800,16 +800,8 @@ section:nth-child(odd) .animate.scroll {
 /* BREAKPOINTS */
 @media (max-width: 600px) {
     .home {
-        display: flex;
-        align-items: center;
-        padding: 0 9%;
-        background: url("../images/home.jpg") no-repeat;
-        background-size: 39% auto;
-        background-position: bottom right;
+        background: none; /* Remove the background for mobile phones image */
       }
-      
-      
-      
   }
 
 @media (max-width: 1200px) {
