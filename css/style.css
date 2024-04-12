@@ -798,6 +798,20 @@ section:nth-child(odd) .animate.scroll {
 
 
 /* BREAKPOINTS */
+@media (max-width: 600px) {
+    .home {
+        display: flex;
+        align-items: center;
+        padding: 0 9%;
+        background: url("../images/home.jpg") no-repeat;
+        background-size: 39% auto;
+        background-position: bottom right;
+      }
+      
+      
+      
+  }
+
 @media (max-width: 1200px) {
     html {
     font-size: 55%;
@@ -891,7 +905,7 @@ section:nth-child(odd) .animate.scroll {
     .home-imgHover {
         pointer-events: none;
         background: var(--bg-color);
-        opacity: .6;
+        opacity: 0;
     }
 
 }
