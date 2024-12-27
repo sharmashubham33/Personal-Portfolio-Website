@@ -318,7 +318,7 @@ span {
     height: 110%;
     border-radius: 50%;
     border-top: 0.5rem solid var(--second-bg-color);
-    border-bottom: 0.5rem solid var(--second-bg-color);
+    border-bottom: 0.5rem solid var (--second-bg-color);
     border-left: 0.5rem solid var(--main-color);
     border-right: 0.5rem solid var(--main-color);
     animation: aboutSpinner 8s linear infinite;
@@ -962,6 +962,42 @@ section:nth-child(odd) .animate.scroll {
     }
 }
 
+@media (min-width: 1600px) {
+    .header {
+        padding: 2rem 12%;
+    }
+
+    section {
+        padding: 10rem 12% 2rem;
+    }
+
+    .home {
+        padding: 0 12%;
+    }
+
+    .footer {
+        padding: 2rem 12%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .header {
+        padding: 2rem 15%;
+    }
+
+    section {
+        padding: 10rem 15% 2rem;
+    }
+
+    .home {
+        padding: 0 15%;
+    }
+
+    .footer {
+        padding: 2rem 15%;
+    }
+}
+
 /* KEYFRAMES ANIMATION */
 @keyframes homeBgText {
     0%,
@@ -1165,4 +1201,3 @@ section:nth-child(odd) .animate.scroll {
     background-color: var(--bg-color);
     color: var(--main-color);
   }
-  
